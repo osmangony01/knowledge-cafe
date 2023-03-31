@@ -8,6 +8,8 @@ const Blog = (props) => {
     const { author, title, images, readTime, types, publishedAt } = props.blog;
     const addSpentTime = props.addSpentTime;
 
+    const addedBlogToCart = props.addedBlogToCart;
+
     return (
         <div className='blog'>
             <img className='cover-img' src={images.coverImage} alt="img" />
@@ -20,7 +22,7 @@ const Blog = (props) => {
                     </div>
                 </div>
                 <div>
-                    <p>0{readTime} min read <FontAwesomeIcon icon={faBookmark} /></p>
+                    <p>0{readTime} min read <button className='btn-bookmark' onClick={()=>addedBlogToCart(props.blog)}><FontAwesomeIcon icon={faBookmark} /></button></p>
                 </div>
             </div>
             <h3 className='title'>{title}</h3>
@@ -29,9 +31,8 @@ const Blog = (props) => {
                     types.map(type => <span className='pe-3'>{type}</span>)
                 }
             </div>
-                
-           <p className='pt-2 pb-4'><strong> <a href="#" onClick={()=>addSpentTime(readTime)}>Mark as Read</a></strong></p>
-
+           <p className='py-3'><button className='btn-mark' onClick={()=>addSpentTime(readTime)}>Mark as Read</button></p>
+            <hr className='pb-3'/>
         </div>
     );
 };

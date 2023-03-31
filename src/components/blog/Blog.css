@@ -15,7 +15,23 @@
     font-size: 30px;
     padding: 14px 0;
 }
+.btn-mark{
+    border: 0;
+    background: white;
+    outline: 0;
+    color: #6047EC;
+    text-decoration: underline;
+    font-weight: 700;
+}
+.btn-bookmark{
+    border: 0;
+    outline: 0;
+    background: white;
 
+}
+.added-blog{
+    font-weight: 700;
+}
 @media (max-width: 576px) {
     .cover-img {
         height: 280px;
