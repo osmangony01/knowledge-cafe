@@ -1,11 +1,12 @@
 
 import './App.css';
+import Header from './components/header/Header';
 
 function App() {
   return (
-    <div className="App">
-      Welcome
-      <button type="button" class="btn btn-primary">Primary</button>
+    <div className="container">
+     <Header />
+     <hr />
     </div>
   );
 }

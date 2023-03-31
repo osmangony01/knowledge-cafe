@@ -1,0 +1,19 @@
+.header {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.header h2{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 160%;
+}
+
+.header img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
