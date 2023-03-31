@@ -9,19 +9,16 @@
     padding: 10px 0;
 
 }
-
 .added-blogs {
     background: rgba(17, 17, 17, 0.05);
     border-radius: 8px;
     padding: 20px;
     margin-top: 20px;
 }
-
 .added-blogs p {
     font-weight: 700;
     font-size: 18px;
 }
-
 .added-blog{
     background-color: white;
     padding: 15px;
