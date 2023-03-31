@@ -6,6 +6,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const Blog = (props) => {
     const { author, title, images, readTime, types, publishedAt } = props.blog;
+    const addSpentTime = props.addSpentTime;
 
     return (
         <div className='blog'>
@@ -29,7 +30,7 @@ const Blog = (props) => {
                 }
             </div>
                 
-           <p className='pt-2 pb-4'><strong> <a href="/read-more" >Mark as Read</a></strong></p>
+           <p className='pt-2 pb-4'><strong> <a href="#" onClick={()=>addSpentTime(readTime)}>Mark as Read</a></strong></p>
 
         </div>
     );

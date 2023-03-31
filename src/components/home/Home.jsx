@@ -7,6 +7,7 @@ import SideBar from '../sidebar/SideBar';
 
 const Home = () => {
     const [blogs, setBlogs] = useState([]);
+    const [spentTime, setSpentTime] = useState(0);
 
     useEffect(() => {
         fetch('fakeData.json')
@@ -15,6 +16,11 @@ const Home = () => {
     }, []);
     console.log(blogs);
 
+    const addSpentTime  = (time) =>{
+        let newTime= spentTime + time;
+        setSpentTime(newTime);
+    }
+    console.log(spentTime)
     return (
         <div className="blog-container">
             <Header />
@@ -22,10 +28,10 @@ const Home = () => {
             <div className='row'>
                 <div className='col-sm-12 col-md-8'>
                     {
-                        blogs.map(blog => <Blog key={blog.id} blog={blog} />)
+                        blogs.map(blog => <Blog key={blog.id} blog={blog} addSpentTime={addSpentTime}/>)
                     }
                 </div>
-                <SideBar />
+                <SideBar spentTime={spentTime}/>
             </div>
         </div>
     );
