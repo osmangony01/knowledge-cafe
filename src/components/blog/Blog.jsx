@@ -2,12 +2,12 @@ import React from 'react';
 
 import './Blog.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-  import { faBookmark } from '@fortawesome/free-solid-svg-icons'
+import { faBookmark } from '@fortawesome/free-solid-svg-icons'
 
 const Blog = (props) => {
+    
     const { author, title, images, readTime, types, publishedAt } = props.blog;
     const addSpentTime = props.addSpentTime;
-
     const addedBlogToCart = props.addedBlogToCart;
 
     return (
@@ -36,6 +36,5 @@ const Blog = (props) => {
         </div>
     );
 };
-
 
 export default Blog;

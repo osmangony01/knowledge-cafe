@@ -4,6 +4,8 @@ import './Home.css';
 import Header from '../header/Header';
 import Blog from '../blog/Blog';
 import SideBar from '../sidebar/SideBar';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Home = () => {
     const [blogs, setBlogs] = useState([]);
@@ -29,7 +31,7 @@ const Home = () => {
             setSelectedBlogs(newBlogs);
         }
         else{
-            alert('already exists');
+            toast.warn("You Have Already Bookmarked This Blog");
         }
         console.log(exist);
         console.log(newBlog);
@@ -48,6 +50,7 @@ const Home = () => {
                     }
                 </div>
                 <SideBar spentTime={spentTime} selectedBlogs={selectedBlogs}/>
+                <ToastContainer />
             </div>
         </div>
     );
