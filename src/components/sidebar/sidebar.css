@@ -1,0 +1,30 @@
+.spent-time {
+    font-weight: 700;
+    font-size: 18px;
+    color: #6047EC;
+    text-align: center;
+    background: rgba(96, 71, 236, 0.1);
+    border: 1px solid #6047EC;
+    border-radius: 8px;
+    padding: 10px 0;
+
+}
+
+.added-blogs {
+    background: rgba(17, 17, 17, 0.05);
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.added-blogs p {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.added-blog{
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}

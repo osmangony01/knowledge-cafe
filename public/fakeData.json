@@ -9,7 +9,7 @@
       },
       "publishedAt": "May 13 (4 days ago)",
       "readTime" :5,
-      "type" : ["#beginner", "#programming"]
+      "types" : ["#beginner", "#programming"]
 
     },
     {
@@ -22,7 +22,7 @@
       },
       "publishedAt": "May 15 (6 days ago)",
       "readTime" :6,
-      "type" : ["#beginner", "#programming"]
+      "types" : ["#beginner", "#programming"]
     },
     {
       "id": "64261cd409fec128bda3834c",
@@ -34,7 +34,7 @@
       },
       "publishedAt": "May 17 (8 days ago)",
       "readTime" :7,
-      "type" : ["#beginner", "#programming"]
+      "types" : ["#beginner", "#programming"]
     },
     {
       "id": "64261cd41e8435c57e9c0bc0",
@@ -46,7 +46,7 @@
       },
       "publishedAt": "May 19 (10 days ago)",
       "readTime" :8,
-      "type" : ["#beginner", "#programming"]
+      "types" : ["#beginner", "#programming"]
     },
     {
       "id": "64261cd4cbb97c9d72dc3b5e",
@@ -58,6 +58,6 @@
       },
       "publishedAt": "May 21 (12 days ago)",
       "readTime" :9,
-      "type" : ["#beginner", "#programming"]
+      "types" : ["#beginner", "#programming"]
     }
   ]
