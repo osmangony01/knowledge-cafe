@@ -1,0 +1,63 @@
+[
+    {
+      "id": "64261cd4628028fbdcc36e67",
+      "author": "Wilder Allison",
+      "title": "How to get your first job as a self-taught programmer",
+      "images":{
+        "coverImage": "https://th.bing.com/th/id/R.6f0e4def93552c8a3a7a9028fb342c39?rik=%2fu%2ftxu9IBfZw4g&pid=ImgRaw&r=0",
+        "authorImage": "https://www.jfkilroy.com/wp-content/uploads/2019/02/p3-1.jpg"
+      },
+      "publishedAt": "May 13 (4 days ago)",
+      "readTime" :5,
+      "types" : ["#beginner", "#programming"]
+
+    },
+    {
+      "id": "64261cd4c7a7256650c8ade8",
+      "author": "Liza Yates",
+      "title": "How To Find The Right programming For Your Specific Product(Service).",
+      "images":{
+        "coverImage": "https://karanamsacademy.com/wp-content/uploads/2020/12/webdesign8.jpg",
+        "authorImage": "https://www.jfkilroy.com/wp-content/uploads/2019/02/p3-1.jpg"
+      },
+      "publishedAt": "May 15 (6 days ago)",
+      "readTime" :6,
+      "types" : ["#beginner", "#programming"]
+    },
+    {
+      "id": "64261cd409fec128bda3834c",
+      "author": "Laurie Gross",
+      "title": "How To Teach programming Better Than Anyone Else",
+      "images":{
+        "coverImage": "https://www.adssentialmarketing.com/wp-content/uploads/2021/04/programmetic-advertising-singapore-1024x512.jpg",
+        "authorImage": "https://www.jfkilroy.com/wp-content/uploads/2019/02/p3-1.jpg"
+      },
+      "publishedAt": "May 17 (8 days ago)",
+      "readTime" : 7, 
+      "types" : ["#beginner", "#programming"]
+    },
+    {
+      "id": "64261cd41e8435c57e9c0bc0",
+      "author": "Mcfadden Wilcox",
+      "title": "To People That Want To Start programming But Are Affraid To Get Started",
+      "images":{
+        "coverImage": "https://th.bing.com/th/id/R.8736f6ce6632c814c4599568528cb4fe?rik=e4fFBxC0rmSyQQ&riu=http%3a%2f%2fsiberteknoloji.com.tr%2fassets%2fimg%2fthumbnails%2fSoftware.jpg&ehk=9KTTz2Vbugg42duSh8rQlV9b%2bVWSvZsN6m4rAt6O4Fg%3d&risl=&pid=ImgRaw&r=0",
+        "authorImage": "https://www.jfkilroy.com/wp-content/uploads/2019/02/p3-1.jpg"
+      },
+      "publishedAt": "May 19 (10 days ago)",
+      "readTime" :8,
+      "types" : ["#beginner", "#programming"]
+    },
+    {
+      "id": "64261cd4cbb97c9d72dc3b5e",
+      "author": "Concetta Stevenson",
+      "title": "Boost Your programming With These Tips",
+      "images":{
+        "coverImage": "https://images.unsplash.com/photo-1670057037226-b3d65909424f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        "authorImage": "https://www.jfkilroy.com/wp-content/uploads/2019/02/p3-1.jpg"
+      },
+      "publishedAt": "May 21 (12 days ago)",
+      "readTime" :9,
+      "types" : ["#beginner", "#programming"]
+    }
+  ]
