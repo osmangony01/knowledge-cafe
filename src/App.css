@@ -38,3 +38,14 @@
   }
 }
 
+.footer{
+  height: 200px;
+  width: 100%;
+  background-color: black;
+}
+
+@media (max-width: 576px) {
+  .footer {
+    height: 100px;
+  }
+}

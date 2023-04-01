@@ -6,6 +6,7 @@ import Blog from '../blog/Blog';
 import SideBar from '../sidebar/SideBar';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import QAnswer from '../QA/QAnswer';
 
 const Home = () => {
     const [blogs, setBlogs] = useState([]);
@@ -52,7 +53,10 @@ const Home = () => {
                 <SideBar spentTime={spentTime} selectedBlogs={selectedBlogs}/>
                 <ToastContainer />
             </div>
+            <QAnswer />
         </div>
+
+       
     );
 };
 

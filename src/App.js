@@ -7,6 +7,9 @@ function App() {
   return (
     <div>
       <Home />
+      <div className='footer'>
+
+      </div>
     </div>
   );
 }
