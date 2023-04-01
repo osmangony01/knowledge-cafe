@@ -8,7 +8,6 @@ function App() {
     <div>
       <Home />
       <div className='footer'>
-
       </div>
     </div>
   );

@@ -18,45 +18,39 @@ const Home = () => {
             .then(res => res.json())
             .then(data => setBlogs(data))
     }, []);
-    console.log(blogs);
 
-    const addSpentTime  = (time) =>{
-        let newTime= spentTime + time;
+    const addSpentTime = (time) => {
+        let newTime = spentTime + time;
         setSpentTime(newTime);
     }
-    const addedBlogToCart = (newBlog) =>{
+
+    const addedBlogToCart = (newBlog) => {
         let newBlogs = [];
         const exist = selectedBlogs.find(blog => blog.id === newBlog.id);
-        if(!exist){
+        if (!exist) {
             newBlogs = [...selectedBlogs, newBlog];
             setSelectedBlogs(newBlogs);
         }
-        else{
+        else {
             toast.warn("You Have Already Bookmarked This Blog");
         }
-        console.log(exist);
-        console.log(newBlog);
-        console.log(newBlogs);
     }
-    console.log(spentTime)
-    console.log('added length: ',selectedBlogs.length)
+
     return (
         <div className="blog-container">
             <Header />
             <hr />
             <div className='row'>
-                <div className='col-sm-12 col-md-8'>
+                <div className='col-sm-12 col-md-8 '>
                     {
-                        blogs.map(blog => <Blog key={blog.id} blog={blog} addSpentTime={addSpentTime} addedBlogToCart={addedBlogToCart}/>)
+                        blogs.map(blog => <Blog key={blog.id} blog={blog} addSpentTime={addSpentTime} addedBlogToCart={addedBlogToCart} />)
                     }
                 </div>
-                <SideBar spentTime={spentTime} selectedBlogs={selectedBlogs}/>
+                <SideBar spentTime={spentTime} selectedBlogs={selectedBlogs} />
                 <ToastContainer />
             </div>
             <QAnswer />
         </div>
-
-       
     );
 };
 
